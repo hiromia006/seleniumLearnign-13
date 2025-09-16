@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
-public class LoginTest {
+public class LoginUsingIdTest {
     public static void main(String[] args) throws InterruptedException {
         String os = System.getProperty("os.name").toLowerCase();
         if (os.contains("linux"))
