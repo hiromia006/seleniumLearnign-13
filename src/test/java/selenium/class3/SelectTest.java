@@ -21,6 +21,12 @@ public class SelectTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
+        driver.findElement(By.id("dob")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.id("dob")).sendKeys("09");
+        driver.findElement(By.id("picture")).sendKeys("/home/jannat-mugdho/Pictures/QA/1755762848479.jpeg");
+        Thread.sleep(2000);
+
         driver.findElement(By.id("gender")).click();
         Thread.sleep(2000);
 
